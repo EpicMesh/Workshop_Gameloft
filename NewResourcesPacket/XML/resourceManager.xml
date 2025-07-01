@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceManager>
+	<models>
+		<folder path="../../NewResourcesPacket/Models/">
+			<model id="1">
+				<file>Croco.nfg</file>
+			</model>
+			<model id="2">
+				<file>fire.nfg</file>
+			</model>
+			<model id="5">
+				<file>Bila.nfg</file>
+			</model>
+			<model id="6">
+				<file>Bus.nfg</file>
+			</model>
+			<model id="7">
+				<file>SkyBox.nfg</file>
+			</model>
+		</folder>
+
+		<!-- un tag folder doar specifica folderul comun pentru un grup de modele (pot sa le am in mai multe foldere)
+		<folder path="Res/Models2/">
+			<model id="1001">
+				<file>altceva.nfg</file>
+			</model>
+		</folder>
+		-->
+		<!-- si aici se adauga toate modelele necesare -->
+	</models>
+	<shaders>
+		<folder path="../../NewResourcesPacket/Shaders/">
+			<shader id="10">
+				<vs>modelShaderVS.vs</vs>
+				<fs>modelShaderFS.fs</fs>
+			</shader>
+			<shader id="3">
+				<vs>terrainShader.vs</vs>
+				<fs>terrainShader.fs</fs>
+			</shader>
+			<shader id="4">
+				<vs>skyShader.vs</vs>
+				<fs>skyShader.fs</fs>
+			</shader>
+			<shader id="5">
+				<vs>fireShader.vs</vs>
+				<fs>fireShader.fs</fs>
+			</shader>
+		<!-- si aici se adauga toate shaderele -->
+		</folder>
+		
+	</shaders>
+	<textures>
+		<folder path="../../NewResourcesPacket/Textures/">
+			<texture id="4" type="2d">
+				<file>croco.tga</file>			
+				<min_filter>LINEAR</min_filter>
+				<mag_filter>LINEAR</mag_filter>
+				<wrap_s>CLAMP_TO_EDGE</wrap_s>
+				<wrap_t>CLAMP_TO_EDGE</wrap_t>
+			</texture>
+			<texture id="13" type="2d">
+				<file>Grass.tga</file>			
+				<min_filter>LINEAR</min_filter>
+				<mag_filter>LINEAR</mag_filter>
+				<wrap_s>REPEAT</wrap_s>
+				<wrap_t>REPEAT</wrap_t>
+			</texture>
+			<texture id="14" type="2d">
+				<file>dirt.tga</file>			
+				<min_filter>LINEAR</min_filter>
+				<mag_filter>LINEAR</mag_filter>
+				<wrap_s>REPEAT</wrap_s>
+				<wrap_t>REPEAT</wrap_t>
+			</texture>
+			<texture id="15" type="2d">
+				<file>rock.tga</file>			
+				<min_filter>LINEAR</min_filter>
+				<mag_filter>LINEAR</mag_filter>
+				<wrap_s>REPEAT</wrap_s>
+				<wrap_t>REPEAT</wrap_t>
+			</texture>
+			<texture id="16" type="2d">
+				<file>Terrain_blend_map.tga</file>			
+				<min_filter>LINEAR</min_filter>
+				<mag_filter>LINEAR</mag_filter>
+				<wrap_s>REPEAT</wrap_s>
+				<wrap_t>REPEAT</wrap_t>
+			</texture>			
+			<texture id="5" type="2d">
+				<file>bus.tga</file>
+				<min_filter>LINEAR</min_filter>
+				<mag_filter>LINEAR</mag_filter>
+				<wrap_s>CLAMP_TO_EDGE</wrap_s>
+				<wrap_t>CLAMP_TO_EDGE</wrap_t>
+			</texture>
+			<texture id="6" type="cube">
+				<file>envMap.tga</file>
+				<min_filter>LINEAR</min_filter>
+				<mag_filter>LINEAR</mag_filter>
+				<wrap_s>CLAMP_TO_EDGE</wrap_s>
+				<wrap_t>CLAMP_TO_EDGE</wrap_t>
+			</texture>
+			<texture id="17" type="2d">
+				<file>fire_mask.tga</file>			
+				<min_filter>LINEAR</min_filter>
+				<mag_filter>LINEAR</mag_filter>
+				<wrap_s>REPEAT</wrap_s>
+				<wrap_t>REPEAT</wrap_t>
+			</texture>
+			<texture id="18" type="2d">
+				<file>fire3.tga</file>			
+				<min_filter>LINEAR</min_filter>
+				<mag_filter>LINEAR</mag_filter>
+				<wrap_s>REPEAT</wrap_s>
+				<wrap_t>REPEAT</wrap_t>
+			</texture>
+			<texture id="19" type="2d">
+				<file>DisplacementMap.tga</file>			
+				<min_filter>LINEAR</min_filter>
+				<mag_filter>LINEAR</mag_filter>
+				<wrap_s>REPEAT</wrap_s>
+				<wrap_t>REPEAT</wrap_t>
+			</texture>
+			<!-- si aici se adauga toate texturile -->
+		</folder>
+	</textures>	
+</resourceManager>

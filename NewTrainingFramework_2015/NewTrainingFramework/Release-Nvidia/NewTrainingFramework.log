@@ -1,0 +1,6 @@
+﻿  Shader.cpp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 1614 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  NewTrainingFramework.vcxproj -> D:\POLITEHNICA\Anul_1\WorkshopGameloft\proiect_2015\NewTrainingFramework_2015\BIN-Nvidia\NewTrainingFramework.exe

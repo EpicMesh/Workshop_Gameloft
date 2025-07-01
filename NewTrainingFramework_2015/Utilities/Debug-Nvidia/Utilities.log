@@ -1,0 +1,14 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Math.cpp
+D:\POLITEHNICA\Anul_1\WorkshopGameloft\proiect_2015\NewTrainingFramework_2015\Utilities\Math.cpp(2,10): error C2859: D:\POLITEHNICA\Anul_1\WorkshopGameloft\proiect_2015\NewTrainingFramework_2015\BIN-Nvidia\Utilities.pdb is not the pdb file that was used when this precompiled header was created, recreate the precompiled header.
+  (compiling source file '/Math.cpp')
+  
+D:\POLITEHNICA\Anul_1\WorkshopGameloft\proiect_2015\NewTrainingFramework_2015\Utilities\Math.cpp(10,13): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file '/Math.cpp')
+  
+D:\POLITEHNICA\Anul_1\WorkshopGameloft\proiect_2015\NewTrainingFramework_2015\Utilities\Math.cpp(104,13): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file '/Math.cpp')
+  
+D:\POLITEHNICA\Anul_1\WorkshopGameloft\proiect_2015\NewTrainingFramework_2015\Utilities\Math.cpp(208,13): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file '/Math.cpp')
+  
