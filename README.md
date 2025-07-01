@@ -1,0 +1,1 @@
+A simple 3D graphics engine built with C++ and OpenGL. Features include camera movement, keyboard/mouse input, textured object rendering, XML-based scene loading, and visual effects like skybox, infinite terrain, fog, lighting, and reflections. Designed as a learning project to explore the fundamentals of real-time graphics programming.
